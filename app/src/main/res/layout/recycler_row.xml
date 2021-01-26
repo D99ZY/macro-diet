@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingTop="0dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="24dp">
+
+            <TextView
+                android:id="@+id/textViewFoodItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Banana"
+                android:textColor="#E91E63"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewFoodItemServingUnit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Serving"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewFoodItemName" />
+
+            <TextView
+                android:id="@+id/textViewFoodItemServingSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="4dp"
+                android:text="1"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toStartOf="@+id/textViewFoodItemServingUnit"
+                app:layout_constraintTop_toBottomOf="@+id/textViewFoodItemName" />
+
+            <TextView
+                android:id="@+id/textViewFoodItemCalories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100kcal"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textViewFoodItemName"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewFoodItemFat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="F:"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@+id/textViewFoodItemName"
+                app:layout_constraintTop_toBottomOf="@+id/textViewFoodItemName" />
+
+            <TextView
+                android:id="@+id/textViewFoodItemCarbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="C:"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/textViewFoodItemFatValue"
+                app:layout_constraintTop_toTopOf="@+id/textViewFoodItemFatValue" />
+
+            <TextView
+                android:id="@+id/textViewFoodItemProtein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="P:"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/textViewFoodItemCarbsValue"
+                app:layout_constraintTop_toTopOf="@+id/textViewFoodItemCarbsValue" />
+
+            <TextView
+                android:id="@+id/textViewFoodItemFatValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="0.4g"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/textViewFoodItemFat"
+                app:layout_constraintTop_toTopOf="@+id/textViewFoodItemFat" />
+
+            <TextView
+                android:id="@+id/textViewFoodItemCarbsValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="12g"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/textViewFoodItemCarbs"
+                app:layout_constraintTop_toTopOf="@+id/textViewFoodItemCarbs" />
+
+            <TextView
+                android:id="@+id/textViewFoodItemProteinValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="4g"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/textViewFoodItemProtein"
+                app:layout_constraintTop_toTopOf="@+id/textViewFoodItemProtein" />
+
+            <TextView
+                android:id="@+id/textViewFoodItemNotes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Medium"
+                android:textSize="14sp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/textViewFoodItemName"
+                app:layout_constraintStart_toEndOf="@+id/textViewFoodItemName" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

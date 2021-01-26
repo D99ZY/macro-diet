@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MacroDiet</string>
+
+    <!-- User details page -->
+
+    <string name="user_details_page_title">User Details</string>
+
+    <string name="enter_user_name">Enter your name</string>
+    <string name="enter_user_name_field">e.g. Mark</string>
+
+    <string name="user_daily_calorie_intake">Enter you daily Calorie intake</string>
+    <string name="user_daily_calorie_intake_field">e.g. 2000</string>
+
+    <string name="user_daily_fat_intake">Enter you daily Fat intake</string>
+    <string name="user_daily_fat_intake_field">e.g. 80</string>
+
+    <string name="user_daily_carb_intake">Enter you daily Carbohydrate intake</string>
+    <string name="user_daily_carb_intake_field">e.g. 200</string>
+
+    <string name="user_daily_protein_intake">Enter you daily Protein intake</string>
+    <string name="user_daily_protein_intake_field">e.g. 120</string>
+
+    <string name="submit_button">Submit</string>
+
+
+    <!-- Daily log page -->
+
+    <string name="daily_log_page_title">Daily Log</string>
+    <string name="daily_log_page_date">DATE</string>
+
+    <string name="user_name">NAME</string>
+
+
+    <!-- Add food to log page -->
+
+    <string name="mic_description">Say Food Name and Quantity</string>
+
+    <string name="mic_speech">Listening…</string>
+
+    <string name="add_food_button">Add Food</string>
+    <string name="try_again_button">Try Again</string>
+    <string name="cancel_button">Cancel</string>
+
+
+
+
+</resources>
